@@ -2,7 +2,7 @@ module.exports = {
   server: {
     PORT: process.env.PORT,
     HOST: process.env.HOST,
-    whiteList: ["https://pokymemory.vercel.app/"],
+    whiteList: ["https://pokymemory.vercel.app"],
   },
   DB: {
     mongoDB: {
